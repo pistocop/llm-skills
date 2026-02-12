@@ -8,18 +8,23 @@ Here, I will develop and store various skills that extend the capabilities of my
 
 ## Structure
 
-Each skill is contained in its own directory within the `skills/` folder. For example:
+Each skill is contained in its own directory. For example:
 
 ```
-skills/
-└───sample-skill/
-    ├───README.md
-    └───...
+.
+└───non-blocking-execution/
+    └───SKILL.md
 ```
 
 ## Usage
 
-Instructions for installing and using each skill can be found in the `README.md` file within the respective skill's directory.
+To install all the skills from this repository, run the following command:
+
+```bash
+gemini skills install https://github.com/pistocop/llm-skills/
+```
+
+Once installed, instructions for using each specific skill can be found in the `SKILL.md` file within that skill's directory.
 
 ## Contributing
 
